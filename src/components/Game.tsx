@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { Engine } from "../core/Engine";
 import { Map } from "../game/Map";
 import { Pacman } from "../game/Pacman";
-import { LayerName } from "../renderer/LayerManager";
+import { LayerName } from "../layers/LayerManager";
 
 export const Game = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);

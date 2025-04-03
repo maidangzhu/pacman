@@ -1,5 +1,16 @@
 import { Layer } from "./Layer";
 
+export enum LayerName {
+  BACKGROUND = "BACKGROUND",
+  GAME = "GAME",
+  UI = "UI",
+  OVERLAY = "OVERLAY",
+}
+
+/**
+ * 图层管理器类
+ * 管理所有渲染图层
+ */
 export class LayerManager {
   private static instance: LayerManager;
   private layers: Map<string, Layer>;
