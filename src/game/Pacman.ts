@@ -1,9 +1,8 @@
 import { GameObject } from "../core/GameObject";
-import { Vector2D } from "../math/Vector2D";
 import { ColliderType, Collider } from "../physics/PhysicsEngine";
 import { Map, TileType } from "./Map";
 import { EventManager, GameEventType } from "../events/EventManager";
-import { InputManager, KeyState } from "../input/InputManager";
+import { InputManager } from "../input/InputManager";
 
 /**
  * 移动方向枚举

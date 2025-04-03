@@ -1,5 +1,5 @@
 import { EventManager, GameEventType } from "../events/EventManager";
-import { LayerManager } from "../renderer/LayerManager";
+import { LayerManager } from "../layers/LayerManager";
 import { InputManager } from "../input/InputManager";
 import { PhysicsEngine } from "../physics/PhysicsEngine";
 import { AssetManager } from "../assets/AssetManager";
